@@ -13,7 +13,7 @@ typedef struct Playlist {
 } Playlist;
 
 
-//some recomendations for functions, you may implement however you want
+//some recommendations for functions, you may implement however you want
 
 void deleteSong() {
 
