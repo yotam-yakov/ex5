@@ -3,6 +3,7 @@
 #include <string.h>
 
 
+
 typedef struct Song {
     
 } Song;
@@ -12,25 +13,26 @@ typedef struct Playlist {
 } Playlist;
 
 
+//some recomendations for functions, you may implement however you want
 
-void deleteSong(Playlist* pl, int number) {
+void deleteSong() {
 
     printf("Song deleted successfully.\n");
 }
 
 
 
-void playSong(Song* s) {
+void playSong() {
     
 }
 
 
 
-void freeSong(Song* s) {
+void freeSong() {
 
 }
 
-void freePlaylist(Playlist* pl) {
+void freePlaylist(P) {
     
 }
 
@@ -41,12 +43,7 @@ void printPlaylistsMenu() {
 
 
 
-
-
-
-
-
-void sortPlaylist(Playlist* pl) {
+void sortPlaylist() {
     
     printf("sorted\n");
 }
