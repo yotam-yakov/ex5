@@ -5,13 +5,18 @@
 
 
 typedef struct Song {
-    
+    char* title;
+    char* artist;
+    int year;
+    char* lyrics;
+    int streams;
 } Song;
 
 typedef struct Playlist {
-   
+    char* name;
+    Song** songs;
+    int songsNum;
 } Playlist;
-
 
 //some recommendations for functions, you may implement however you want
 
